@@ -1,0 +1,11 @@
+{
+  "name": "Imgbb-Uploader-bot",
+  "description": "Telegram ImgBB uploader bot",
+  "repository": "https://github.com/MutyalaHarshith/IMGBB-Uploader-Bot",
+  "keywords": ["python", "telegram", "bot"],
+  "env": {
+    "BOT_TOKEN": {"description": "From @BotFather"},
+    "IMGBB_API_KEY": {"description": "From api.imgbb.com"}
+  },
+  "buildpacks": [{"url": "heroku/python"}]
+}
